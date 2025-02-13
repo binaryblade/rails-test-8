@@ -28,6 +28,8 @@ end
 
 group :development do
   gem "web-console"
+  gem "solargraph", "~> 0.51.2"
+  gem "solargraph-rails", "~> 1.1"
 end
 
 group :test do
