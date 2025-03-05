@@ -28,7 +28,7 @@ end
 
 group :development do
   gem "web-console"
-  gem "solargraph", "~> 0.51.2"
+  gem "solargraph", "~> 0.52.0"
   gem "solargraph-rails", "~> 1.1"
 end
 
