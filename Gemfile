@@ -24,6 +24,8 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false
+  gem "solargraph", "~> 0.52.0"
+  gem "solargraph-rails", "~> 1.1"
 end
 
 group :development do
