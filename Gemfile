@@ -36,3 +36,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "minitest-reporters", "~> 1.7"
+
+gem "guard", "~> 2.19"
+
+gem "guard-minitest", "~> 2.4"
