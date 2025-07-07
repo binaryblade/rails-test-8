@@ -28,7 +28,7 @@ group :development, :test do
   gem "guard-minitest", "~> 2.4"
   gem "minitest-reporters", "~> 1.7"
   gem "rubocop-rails-omakase", require: false
-  gem "solargraph", "~> 0.52.0"
+  gem "solargraph", "~> 0.56.0"
   gem "solargraph-rails", "~> 1.1"
 end
 
