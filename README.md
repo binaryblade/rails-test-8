@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the Binary Blade LLC template project for  `Rails 8`.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Clone the repository down to your local workstation.
 
-* System dependencies
+`gh repo clone binaryblade/rails-test-8`
 
-* Configuration
+Install and load the correct version of ruby (we standardize on `mise`):
 
-* Database creation
+`mise i`
 
-* Database initialization
+Install neccessary ruby gems:
 
-* How to run the test suite
+`./bin/bundle`
 
-* Services (job queues, cache servers, search engines, etc.)
+Setup project:
 
-* Deployment instructions
+`./bin/setup`
 
-* ...
+You can now run the project, or you can debug any errors, if you're unlucky enough to have them.
+
+## Troubleshooting
+
+...
+
+Make sure you install all requirements...postgresql, etc.
+
